@@ -139,3 +139,18 @@ class Playlist(MixinYT):
                 likes = int(video.likes)
                 best_video = item
         return f'https://youtu.be/{best_video}'
+
+
+
+
+
+# pl=Playlist('PL7Ntiz7eTKwrqmApjln9u4ItzhDLRtPuD')
+# print(pl.url)
+# print(pl.video_list())
+# print(pl.show_best_video())
+# print(pl.total_duration())
+
+video = Video('D5SKbtnK5f4')
+print(video.likes)
+print(video.title)
+print(video.id)
